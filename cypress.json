@@ -1,0 +1,13 @@
+{
+    "baseUrl": "https://www.amazon.com",
+    "viewportHeight": 1080,
+    "viewportWidth": 1920,
+    "env": {
+        "email": "eckofeal@gmail.com",
+        "password": "xmpqderf"
+    },
+    "retries": {
+        "runMode": 0,
+        "openMode": 0
+    }
+}
