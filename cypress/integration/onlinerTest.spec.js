@@ -3,7 +3,7 @@
 describe('Amazon Test', () => {
 
     it('Api intercept sing in email request.', () => {
-        cy.intercept('POST', 'https://www.kufar.by/l/api/login/v2/auth/signin?token_type=user', request => {
+        cy.intercept('https://www.kufar.by/l/api/login/v2/auth/signin?token_type=user', request => {
             expect(request.body.email).to.be.equal(Cypress.env('email'));
             expect(request.body.password).to.be.equal(Cypress.env('password'));
         }).as('login');
