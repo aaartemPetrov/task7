@@ -1,10 +1,10 @@
 {
-    "baseUrl": "https://www.amazon.com",
+    "baseUrl": "https://www.kufar.by",
     "viewportHeight": 1080,
     "viewportWidth": 1920,
     "env": {
         "email": "eckofeal@gmail.com",
-        "password": "xmpqderf"
+        "password": "xmpqderF123"
     },
     "retries": {
         "runMode": 0,
